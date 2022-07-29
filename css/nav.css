@@ -1,0 +1,43 @@
+/* Navigation Section */
+.navbar {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+
+/* Navigation left */
+.nav-left img {
+  margin-right: 300px;
+  width: 120px;
+}
+
+
+/* Navigation mid */
+.nav-mid-list-item {
+  display: inline;
+  margin-right: 50px;
+  font-family: "Montserrat";
+  cursor: pointer;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.nav-mid-list-item:hover {
+  font-weight: 700;
+}
+
+
+/* Navigation right */
+.nav-right-button button {
+  height: 50px;
+  width: 150px;
+  background: transparent;
+  border-radius: 10px;
+  color: #948434;
+  border: 1px solid #948434;
+  cursor: pointer;
+}

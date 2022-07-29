@@ -1,0 +1,45 @@
+/* Main Section */
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 270px;
+  padding: 0 100px;
+  justify-content: space-between;
+}
+
+
+
+
+
+/* Main left section */
+.main-left {
+  flex: 1;
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: xx-large;
+}
+
+
+
+
+
+/* Main right section */
+.main-right {
+  flex: 1;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+
+
+
+
+/* Main bottom section */
+.main-bottom img {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
